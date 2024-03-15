@@ -1,0 +1,43 @@
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+9,22,41,33,64,31,8,45,97,7,92,69,68,47,55,92,0,80,88,53,47,39,31,65,42,61,8,71,99,1,13,38,69,32,72,53,52,62,35,9,69,62,80,83,32,34,49,28,83,90,35,68,66,84,34,42,20,40,46,94,40,29,41,91,41,22,68,6,37,9,44,97,7,0,52,38,61,81,77 / false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+99,38,7,91,53,42,1,20,1,22,36,82,6,0,26,75,73,9,14,88,30,85,18,76,73,65,36,52,95,22,59,75,80,0,50,66,42,75,28,78,36,34,27,73,87,80,14,76,90,38,88,35,17,22,21,11,19,14,60,17,38,46,71,92,68,35,93,63,26,77,6,1,26,24,79,74,96,87,2,70,79,53,21,76,20,33,45,2,15,81,37 * 7
+const formatDate = date => new Date(date).toLocaleDateString();
+const findSmallestNumber = numbers => Math.min(...numbers);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const randomNumber = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+orange - apple
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const isEven = num => num % 2 === 0;
+orange
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const multiply = (a, b) => a * b;
+apple
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+banana
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const randomNumber = getRandomNumber();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getUniqueValues = array => [...new Set(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+93 - false
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getUniqueValues = array => [...new Set(array)];
+banana / 67
+
+const multiply = (a, b) => a * b;
