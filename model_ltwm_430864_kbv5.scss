@@ -1,0 +1,17 @@
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const capitalizeString = str => str.toUpperCase();
+kiwi
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+class MyClass { constructor() { this.property = getRandomString(); } }
+banana
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomSubset = (array, size) => array.slice(0, size);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false * 90,41,58,14,24,89,22,56,38,78,71,51,83,9,74
+console.log(getRandomString());
+24 + 37,51,11,23,42,43,65,59,50,60,79,45,49,13,68,94,46,7,37,5,21,5,9,61,8,99,83,56,87,21,79,79,15,80,41,87,28,34,97,33,84,6,99,93,38,63,77,25,73,64,4,60,84,73,94
+const formatDate = date => new Date(date).toLocaleDateString();
